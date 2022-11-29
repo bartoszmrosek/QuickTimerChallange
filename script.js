@@ -1,6 +1,7 @@
 storedRecords = [];
 
-const setRecord = timer => {
+const setRecord = () => {
+    const timer = document.getElementById('stoper').innerText;
   storedRecords.push({id: storedRecords.length + 1, record: timer});
 };
 
