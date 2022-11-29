@@ -13,7 +13,7 @@ const decide = (start = false) => {
         minutes++;
         seconds = 0;
       }
-      stopper.innerText = `${minutes}:${seconds}`;
+      stopper.innerText = `${minutes}:${seconds<10 ? '0': ''}${seconds}`;
     }, 1000);
     isStarted = true;
   }
