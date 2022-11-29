@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    
+    background: #222;
 }
 ::-webkit-scrollbar{
     background: gray;
@@ -19,14 +19,14 @@ main{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    background: #222;
+    background: rgb(53, 53, 53);
     width: 25rem;
     min-height: 15rem;
     color: white;
     padding: .5rem;
     border-radius: .5rem;
     margin: auto;
-    border: 2px solid rgb(130, 132, 238);
+    box-shadow: 0px 0px 5px 3px rgb(43, 43, 43);
 }
 .stoper-time{
     font-size: 2.5rem;
