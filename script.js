@@ -10,7 +10,7 @@ const retrieveRecords = () => {
   archiveDisplay.innerHTML ="";
     for(records of storedRecords){
         const newParagraph = document.createElement('p');
-        newParagraph.innerText = `${records.id} ${record.record}`
+        newParagraph.innerText = `${records.id} ${records.record}`
         archiveDisplay.appendChild(newParagraph);
     }
 };
